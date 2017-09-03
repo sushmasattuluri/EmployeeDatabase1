@@ -38,7 +38,7 @@
 	
 	<bean id="propertyConfigurer"
 	class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
-	p:location="/META-INF/jdbc.properties"/>
+	p:location="META-INF/jdbc.properties"/>
 	
 	
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
